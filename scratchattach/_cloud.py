@@ -46,7 +46,7 @@ class _CloudMixin:
     def get_var(self, variable):
         try:
             variable = "☁ " + str(variable)
-            self.set_var('@scratchattach','0')
+      #      self.set_var('@scratchattach','0') -- Removed
 
             result = []
             for i in self._clouddata:
